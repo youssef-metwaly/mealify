@@ -1,0 +1,212 @@
+@media screen and (max-width:1053px) {
+    #home .content .text .right{
+        width: 45%;
+    }
+    #home .content .text .left{
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width:990px) {
+    #home {
+        margin-bottom: 40%;
+    }
+    #home .content{
+        height: auto;
+    }
+    #home .content .text .right{
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        order: 2;
+    }
+    #home .content .text .right img{
+        width: 90%;
+        margin: 20px 0;
+    }
+    #home .content .text .left{
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        order: 3;
+        text-align: center;
+        margin: auto;
+    }
+    #home .content .text .left .btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home .navbar .links ul{
+        display: none;
+    }
+
+    #home .navbar .mode .fa-bars{
+        display: flex;
+    }
+
+    #home .navbar .mode .fa-moon{
+        display: none;
+    }
+
+    #home .navbar .mode .fa-sun{
+        display: none;
+    }
+
+    #chefs .container .persons .men{
+        width: 47%;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    #gallery .container .foods{
+        width: 100%;
+        height: 1700px;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    #gallery .container .foods .food1{
+        width: 49%;
+        order: 1;
+    }
+    #gallery .container .foods .food2{
+        width: 49%;
+        order: 3;
+    } 
+    #gallery .container .foods .food3{
+        width: 49%;
+        order: 5;
+    } 
+    #gallery .container .foods .food4{
+        width: 49%;
+        order: 4;
+    } 
+    #gallery .container .foods .food5{
+        width: 49%;
+        order: 2;
+    } 
+    #gallery .container .foods .food6{
+        width: 49%;
+        order: 6;
+    } 
+    #gallery .container .foods .food7{
+        width: 49%;
+        order: 7;
+    }
+    #footer .container .footer-left{
+        width: 50%;
+        float: left;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    #footer .container .footer-right{
+        width: 50%;
+        float: left;
+        order: 2;
+        margin-bottom: 20px;
+    }
+    #footer .container .footer-center{
+        width: 100%;
+        order: 3;
+    }
+}
+
+
+
+@media screen and (max-width:770px) {
+    #chefs .container .persons .men{
+        width: 93%;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    #gallery .container .foods{
+        width: 100%;
+        height: 3100px;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    #gallery .container .foods .food1{
+        width:100%;
+        order: 1;
+    }
+    #gallery .container .foods .food2{
+        width:100%;
+        order: 3;
+        margin-bottom: 2%;
+    } 
+    #gallery .container .foods .food3{
+        width:100%;
+        order: 5;
+    } 
+    #gallery .container .foods .food4{
+        width:100%;
+        order: 4;
+        margin-bottom: 2%;
+    } 
+    #gallery .container .foods .food5{
+        width:100%;
+        order: 2;
+    } 
+    #gallery .container .foods .food6{
+        width:100%;
+        order: 6;
+    } 
+    #gallery .container .foods .food7{
+        width:100%;
+        order: 7;
+    }
+
+    #contact .container iframe{
+        margin-bottom: 20px;
+    }
+    #contact .container .information{
+        flex-direction: column;
+        margin: auto;
+    }
+    #contact .container .information .info1{
+        width: 100%;
+    }
+    #contact .container .form1 form .input1{
+        width: 96%;
+        margin-left: 0;
+        float: none;
+    }
+    #contact .container .form1 form .input2{
+        width: 96%;
+        margin-right: 0;
+        float: none;
+    }
+    #footer .container .footer-left{
+        width: 100%;
+        margin-bottom: 20px;
+        order: 1;
+    }
+    #footer .container .footer-right{
+        width: 100%;
+        margin-bottom: 20px;
+        order: 3;
+    }
+    #footer .container .footer-center{
+        width: 100%;
+        order: 2;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:580px) {
+    #footer .container .footer-center input{
+        width: 100%;
+    }
+    #footer .container .footer-center button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
